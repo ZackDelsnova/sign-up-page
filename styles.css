@@ -6,14 +6,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f2f5;
+    background-image: linear-gradient(to top, #091018, #24babb, #c7284e, #070e14);
 }
 
 .container {
     display: flex;
     max-width: 800px;
     width: 100%;
-    background-color: #fff;
+    background-image: linear-gradient(to top, #091018, #24babb, #c7284e, #070e14);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -21,7 +21,7 @@ body {
 
 .left {
     flex: 1;
-    background: url('signup-bg.jpg') no-repeat center center/cover;
+    background: url('scene_from_a_dark_sci_fi__9_by_weirddarkness_dfol7ms-fullview.jpg') no-repeat center center/cover;
 }
 
 .right {
@@ -47,8 +47,10 @@ label {
 
 input {
     padding: 0.5rem;
+    color: black;
+    background-color: #fd609c;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #fd609c;
     border-radius: 4px;
 }
 
